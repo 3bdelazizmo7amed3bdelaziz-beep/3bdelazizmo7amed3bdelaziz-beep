@@ -2,16 +2,16 @@
     <defs>
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&amp;display=swap');
-            .bg { fill: #0d1117; }
-            .border { stroke: #30363d; stroke-width: 2; fill: none; }
-            .title { font-family: 'Ubuntu Mono', monospace; font-size: 22px; fill: #58a6ff; font-weight: bold; text-anchor: middle; }
-            .label { font-family: 'Ubuntu Mono', monospace; font-size: 14px; fill: #c9d1d9; }
-            .percent { font-family: 'Ubuntu Mono', monospace; font-size: 14px; fill: #8b949e; text-anchor: end; }
-            .bar-bg { fill: #21262d; rx: 4; }
-            .bar-fill-1 { fill: #58a6ff; rx: 4; }
-            .bar-fill-2 { fill: #3fb950; rx: 4; }
-            .bar-fill-3 { fill: #a371f7; rx: 4; }
-            .bar-fill-4 { fill: #f0883e; rx: 4; }
+            .bg { fill: #060913; }
+            .border { stroke: #00d2ff; stroke-width: 1; stroke-opacity: 0.3; fill: none; }
+            .title { font-family: 'Ubuntu Mono', monospace; font-size: 22px; fill: #00d2ff; font-weight: bold; text-anchor: middle; text-shadow: 0 0 8px rgba(0,210,255,0.5); }
+            .label { font-family: 'Ubuntu Mono', monospace; font-size: 14px; fill: #94a3b8; }
+            .percent { font-family: 'Ubuntu Mono', monospace; font-size: 14px; fill: #0ea5e9; text-anchor: end; font-weight: bold; }
+            .bar-bg { fill: #1e293b; rx: 4; }
+            .bar-fill-1 { fill: #00d2ff; rx: 4; filter: drop-shadow(0 0 4px #00d2ff); }
+            .bar-fill-2 { fill: #0ea5e9; rx: 4; filter: drop-shadow(0 0 4px #0ea5e9); }
+            .bar-fill-3 { fill: #3b82f6; rx: 4; filter: drop-shadow(0 0 4px #3b82f6); }
+            .bar-fill-4 { fill: #60a5fa; rx: 4; filter: drop-shadow(0 0 4px #60a5fa); }
         </style>
     </defs>
 

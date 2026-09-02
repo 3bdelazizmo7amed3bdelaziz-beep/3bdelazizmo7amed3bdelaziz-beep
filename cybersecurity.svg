@@ -3,14 +3,13 @@
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
             .bg { fill: #060913; }
-            .grid { stroke: rgba(0, 255, 0, 0.05); stroke-width: 1; }
-            .title { font-family: 'Share Tech Mono', monospace; font-size: 28px; fill: #00ff00; font-weight: bold; text-anchor: middle; letter-spacing: 2px; text-shadow: 0 0 10px rgba(0,255,0,0.5); }
-            .subtitle { font-family: 'Share Tech Mono', monospace; font-size: 16px; fill: #00cc00; text-anchor: middle; }
-            .binary { font-family: monospace; font-size: 10px; fill: rgba(0,255,0,0.15); }
-            .shield { fill: none; stroke: #00ff00; stroke-width: 3; filter: drop-shadow(0 0 8px #00ff00); }
-            .scan-line { fill: rgba(0,255,0,0.2); }
-            .path-text { font-family: 'Share Tech Mono', monospace; font-size: 12px; fill: #a3a3a3; letter-spacing: 1px; }
-            .highlight { fill: #00ff00; }
+            .grid { stroke: rgba(0, 210, 255, 0.05); stroke-width: 1; }
+            .title { font-family: 'Share Tech Mono', monospace; font-size: 28px; fill: #00d2ff; font-weight: bold; text-anchor: middle; letter-spacing: 2px; text-shadow: 0 0 12px rgba(0,210,255,0.6); }
+            .subtitle { font-family: 'Share Tech Mono', monospace; font-size: 16px; fill: #0ea5e9; text-anchor: middle; }
+            .binary { font-family: monospace; font-size: 10px; fill: rgba(0,210,255,0.15); }
+            .shield { fill: none; stroke: #00d2ff; stroke-width: 3; filter: drop-shadow(0 0 10px #00d2ff); }
+            .scan-line { fill: rgba(0,210,255,0.3); filter: drop-shadow(0 0 5px #00d2ff); }
+            .path-text { font-family: 'Share Tech Mono', monospace; font-size: 12px; fill: #94a3b8; letter-spacing: 1px; }
         </style>
     </defs>
 
@@ -37,7 +36,7 @@
     <!-- Shield Icon -->
     <g transform="translate(360, 70)">
         <path d="M40 0 L0 15 L0 45 C0 70 15 90 40 110 C65 90 80 70 80 45 L80 15 Z" class="shield" />
-        <path d="M30 45 L40 55 L55 35" fill="none" stroke="#00ff00" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M30 45 L40 55 L55 35" fill="none" stroke="#00d2ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
     </g>
 
     <!-- Scanning Line inside Shield -->
@@ -50,8 +49,8 @@
     <text x="400" y="215" class="subtitle">Penetration Testing | AppSec | Ethical Hacking</text>
 
     <!-- Target Brackets -->
-    <path d="M 280 190 L 270 190 L 270 200" fill="none" stroke="#00ff00" stroke-width="2" />
-    <path d="M 520 190 L 530 190 L 530 200" fill="none" stroke="#00ff00" stroke-width="2" />
-    <path d="M 280 230 L 270 230 L 270 220" fill="none" stroke="#00ff00" stroke-width="2" />
-    <path d="M 520 230 L 530 230 L 530 220" fill="none" stroke="#00ff00" stroke-width="2" />
+    <path d="M 280 190 L 270 190 L 270 200" fill="none" stroke="#00d2ff" stroke-width="2" />
+    <path d="M 520 190 L 530 190 L 530 200" fill="none" stroke="#00d2ff" stroke-width="2" />
+    <path d="M 280 230 L 270 230 L 270 220" fill="none" stroke="#00d2ff" stroke-width="2" />
+    <path d="M 520 230 L 530 230 L 530 220" fill="none" stroke="#00d2ff" stroke-width="2" />
 </svg>

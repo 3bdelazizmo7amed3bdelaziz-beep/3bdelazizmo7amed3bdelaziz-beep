@@ -3,18 +3,18 @@
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
             .bg { fill: #060913; }
-            .box { fill: none; stroke: #00ff00; stroke-width: 2; rx: 8; }
-            .glow-dot { fill: #00ff00; filter: drop-shadow(0 0 8px #00ff00); }
-            .title { font-family: 'Share Tech Mono', monospace; font-size: 20px; fill: #00ff00; font-weight: bold; }
-            .subtitle { font-family: 'Share Tech Mono', monospace; font-size: 14px; fill: #00cc00; }
+            .box { fill: none; stroke: #00d2ff; stroke-width: 2; rx: 8; filter: drop-shadow(0 0 5px rgba(0,210,255,0.3)); }
+            .glow-dot { fill: #00d2ff; filter: drop-shadow(0 0 10px #00d2ff); }
+            .title { font-family: 'Share Tech Mono', monospace; font-size: 20px; fill: #00d2ff; font-weight: bold; }
+            .subtitle { font-family: 'Share Tech Mono', monospace; font-size: 14px; fill: #0ea5e9; }
             
-            .btn-box { fill: none; stroke: rgba(0,255,0,0.5); stroke-width: 1; rx: 4; }
-            .btn-text { font-family: 'Share Tech Mono', monospace; font-size: 12px; fill: #a3a3a3; text-anchor: middle; }
+            .btn-box { fill: none; stroke: rgba(0,210,255,0.4); stroke-width: 1; rx: 4; }
+            .btn-text { font-family: 'Share Tech Mono', monospace; font-size: 12px; fill: #94a3b8; text-anchor: middle; }
             .btn-title { font-family: 'Share Tech Mono', monospace; font-size: 14px; font-weight: bold; text-anchor: middle; }
             
-            .t-contact { fill: #00d2ff; }
-            .t-response { fill: #ff3b5c; }
-            .t-freelance { fill: #f59e0b; }
+            .t-contact { fill: #0ea5e9; }
+            .t-response { fill: #3b82f6; }
+            .t-freelance { fill: #00d2ff; }
         </style>
     </defs>
 
@@ -25,7 +25,7 @@
         
         <!-- Status Indicator -->
         <circle cx="40" cy="40" r="12" class="glow-dot">
-            <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+            <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
         </circle>
         
         <text x="70" y="45" class="title">STATUS: AVAILABLE</text>
