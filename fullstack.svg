@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#020617"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+    <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#06b6d4"/>
+      <stop offset="50%" style="stop-color:#1a56db"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+    <filter id="g2">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="200" fill="url(#bg2)" rx="12"/>
+  <rect x="0" y="0" width="800" height="2" fill="url(#line-grad)" opacity="0.5"/>
+  <rect x="0" y="198" width="800" height="2" fill="url(#line-grad)" opacity="0.5"/>
+
+  <!-- Grid -->
+  <g opacity="0.04" stroke="#06b6d4" stroke-width="0.5">
+    <line x1="0" y1="50" x2="800" y2="50"/>
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="150" x2="800" y2="150"/>
+  </g>
+
+  <!-- Backend Section -->
+  <g transform="translate(40, 30)">
+    <rect width="160" height="140" rx="8" fill="#06b6d4" opacity="0.06" stroke="#06b6d4" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="80" y="25" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#06b6d4" font-weight="700" filter="url(#g2)">⚙️ BACKEND</text>
+    <text x="80" y="50" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#94a3b8">C# / .NET Core</text>
+    <text x="80" y="68" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#94a3b8">ASP.NET MVC</text>
+    <text x="80" y="86" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#94a3b8">EF Core / REST APIs</text>
+    <text x="80" y="104" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#94a3b8">Microservices</text>
+    <text x="80" y="122" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#94a3b8">Clean Architecture</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <g transform="translate(210, 95)">
+    <line x1="0" y1="0" x2="30" y2="0" stroke="#06b6d4" stroke-width="1.5" opacity="0.4"/>
+    <polygon points="30,-4 38,0 30,4" fill="#06b6d4" opacity="0.4"/>
+  </g>
+
+  <!-- Security Section -->
+  <g transform="translate(250, 30)">
+    <rect width="160" height="140" rx="8" fill="#ff3b5c" opacity="0.06" stroke="#ff3b5c" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="80" y="25" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#ff3b5c" font-weight="700" filter="url(#g2)">🔒 SECURITY</text>
+    <text x="80" y="50" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#94a3b8">Web Pentesting</text>
+    <text x="80" y="68" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#94a3b8">OWASP Top 10</text>
+    <text x="80" y="86" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#94a3b8">Burp Suite / Nmap</text>
+    <text x="80" y="104" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#94a3b8">Vulnerability Assessment</text>
+    <text x="80" y="122" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#94a3b8">Metasploit / Wireshark</text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <g transform="translate(420, 95)">
+    <line x1="0" y1="0" x2="30" y2="0" stroke="#ff3b5c" stroke-width="1.5" opacity="0.4"/>
+    <polygon points="30,-4 38,0 30,4" fill="#ff3b5c" opacity="0.4"/>
+  </g>
+
+  <!-- Database Section -->
+  <g transform="translate(460, 30)">
+    <rect width="160" height="140" rx="8" fill="#f59e0b" opacity="0.06" stroke="#f59e0b" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="80" y="25" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#f59e0b" font-weight="700" filter="url(#g2)">🗄️ DATABASE</text>
+    <text x="80" y="50" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#94a3b8">SQL Server</text>
+    <text x="80" y="68" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#94a3b8">MySQL</text>
+    <text x="80" y="86" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#94a3b8">MongoDB</text>
+    <text x="80" y="104" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#94a3b8">Database Design</text>
+    <text x="80" y="122" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#94a3b8">ORM / EF Core</text>
+  </g>
+
+  <!-- Arrow 3 -->
+  <g transform="translate(630, 95)">
+    <line x1="0" y1="0" x2="30" y2="0" stroke="#f59e0b" stroke-width="1.5" opacity="0.4"/>
+    <polygon points="30,-4 38,0 30,4" fill="#f59e0b" opacity="0.4"/>
+  </g>
+
+  <!-- DevOps Section -->
+  <g transform="translate(670, 30)">
+    <rect width="110" height="140" rx="8" fill="#10b981" opacity="0.06" stroke="#10b981" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="55" y="25" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#10b981" font-weight="700" filter="url(#g2)">🚀 DEVOPS</text>
+    <text x="55" y="50" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#94a3b8">Docker</text>
+    <text x="55" y="68" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#94a3b8">Linux</text>
+    <text x="55" y="86" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#94a3b8">Git/GitHub</text>
+    <text x="55" y="104" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#94a3b8">Postman</text>
+    <text x="55" y="122" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#94a3b8">Azure</text>
+  </g>
+</svg>

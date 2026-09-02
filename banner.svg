@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="50%" style="stop-color:#020617"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#06b6d4"/>
+      <stop offset="100%" style="stop-color:#1a56db"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="300" fill="url(#bg)"/>
+
+  <!-- Grid lines -->
+  <g opacity="0.06" stroke="#06b6d4" stroke-width="0.5">
+    <line x1="0" y1="50" x2="900" y2="50"/>
+    <line x1="0" y1="100" x2="900" y2="100"/>
+    <line x1="0" y1="150" x2="900" y2="150"/>
+    <line x1="0" y1="200" x2="900" y2="200"/>
+    <line x1="0" y1="250" x2="900" y2="250"/>
+    <line x1="150" y1="0" x2="150" y2="300"/>
+    <line x1="300" y1="0" x2="300" y2="300"/>
+    <line x1="450" y1="0" x2="450" y2="300"/>
+    <line x1="600" y1="0" x2="600" y2="300"/>
+    <line x1="750" y1="0" x2="750" y2="300"/>
+  </g>
+
+  <!-- Decorative circles -->
+  <circle cx="80" cy="60" r="80" fill="#06b6d4" opacity="0.04"/>
+  <circle cx="820" cy="240" r="100" fill="#1a56db" opacity="0.05"/>
+  <circle cx="450" cy="150" r="180" fill="#06b6d4" opacity="0.02"/>
+
+  <!-- Animated particles -->
+  <circle cx="100" cy="50" r="2" fill="#06b6d4" opacity="0.6" filter="url(#glow)">
+    <animate attributeName="cy" values="50;250;50" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="250" cy="200" r="1.5" fill="#1a56db" opacity="0.5">
+    <animate attributeName="cy" values="200;30;200" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.1;0.5" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="700" cy="80" r="2" fill="#06b6d4" opacity="0.4" filter="url(#glow)">
+    <animate attributeName="cy" values="80;270;80" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="830" cy="150" r="1.5" fill="#1a56db" opacity="0.5">
+    <animate attributeName="cy" values="150;20;150" dur="7s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Top accent line -->
+  <rect x="0" y="0" width="900" height="3" fill="url(#accent)" opacity="0.8"/>
+  <!-- Bottom accent line -->
+  <rect x="0" y="297" width="900" height="3" fill="url(#accent)" opacity="0.8"/>
+
+  <!-- Left decorative bracket -->
+  <g transform="translate(60, 90)" opacity="0.15" stroke="#06b6d4" stroke-width="2" fill="none">
+    <path d="M 20 0 L 0 0 L 0 120 L 20 120"/>
+  </g>
+  <!-- Right decorative bracket -->
+  <g transform="translate(820, 90)" opacity="0.15" stroke="#06b6d4" stroke-width="2" fill="none">
+    <path d="M 0 0 L 20 0 L 20 120 L 0 120"/>
+  </g>
+
+  <!-- Terminal prompt -->
+  <text x="100" y="100" font-family="'Courier New', monospace" font-size="14" fill="#06b6d4" opacity="0.6" filter="url(#glow)">$ ./init_profile.sh</text>
+
+  <!-- Main name -->
+  <text x="450" y="140" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="42" font-weight="800" fill="#f8fafc" filter="url(#softglow)">Abdelaziz Mohamed</text>
+
+  <!-- Accent underline -->
+  <rect x="250" y="155" width="400" height="2" fill="url(#accent)" rx="1" opacity="0.6">
+    <animate attributeName="width" values="0;400" dur="2s" fill="freeze"/>
+    <animate attributeName="x" values="450;250" dur="2s" fill="freeze"/>
+  </rect>
+
+  <!-- Role text -->
+  <text x="450" y="185" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#06b6d4" filter="url(#glow)">.NET Backend Developer &amp; Cybersecurity Analyst</text>
+
+  <!-- Tagline -->
+  <text x="450" y="220" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#94a3b8">Build · Secure · Scale — Architecture to Deployment to Pentest</text>
+
+  <!-- Badges row -->
+  <g transform="translate(215, 240)">
+    <rect x="0" y="0" width="55" height="24" rx="4" fill="#06b6d4" opacity="0.15" stroke="#06b6d4" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="27.5" y="16" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#06b6d4">C#</text>
+    <rect x="65" y="0" width="55" height="24" rx="4" fill="#1a56db" opacity="0.15" stroke="#1a56db" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="92.5" y="16" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#93c5fd">.NET</text>
+    <rect x="130" y="0" width="75" height="24" rx="4" fill="#ff3b5c" opacity="0.15" stroke="#ff3b5c" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="167.5" y="16" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#ff8fa3">Security</text>
+    <rect x="215" y="0" width="70" height="24" rx="4" fill="#10b981" opacity="0.15" stroke="#10b981" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="250" y="16" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#6ee7b7">OWASP</text>
+    <rect x="295" y="0" width="65" height="24" rx="4" fill="#f59e0b" opacity="0.15" stroke="#f59e0b" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="327.5" y="16" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#fcd34d">Docker</text>
+    <rect x="370" y="0" width="80" height="24" rx="4" fill="#8b5cf6" opacity="0.15" stroke="#8b5cf6" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="410" y="16" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#c4b5fd">SQL Server</text>
+  </g>
+
+  <!-- Status indicator -->
+  <g transform="translate(760, 95)">
+    <circle cx="0" cy="0" r="4" fill="#10b981" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="12" y="4" font-family="'Courier New', monospace" font-size="11" fill="#10b981" opacity="0.8">ONLINE</text>
+  </g>
+</svg>
