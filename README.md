@@ -49,43 +49,60 @@ I'm **Abdelaziz Mohamed** — **Backend & Security Engineer** from **Cairo, Egyp
 
 **Pipeline:** `Architecture → C# / ASP.NET Core → EF Core → SQL Server → REST API → Docker → Pentest`
 
-### 📊 Complete Skills Overview
+---
 
-| Domain | Skills & Technologies |
-|---|---|
-| **Backend / .NET** | C#, .NET, ASP.NET Core, EF Core, CLR, LINQ, REST API, Web API, JWT, Microservices, Clean Architecture |
-| **Cybersecurity** | Penetration Testing, OWASP Top 10, Burp Suite Pro, Nmap, Metasploit, Wireshark, SQLmap, OSINT, SAST, DAST |
-| **Databases** | SQL Server, T-SQL, MySQL, MongoDB, Database Design, Query Optimization, ORM |
-| **Cloud & DevOps** | Microsoft Azure, Azure DevOps, Docker, Git/GitHub, CI/CD, Linux, Postman, Nginx |
-| **Networking** | Cisco Networking, CCNA, VLANs, Routing Protocols, TCP/IP, Network Security |
-| **Full Stack** | React.js, Angular 18, Node.js, Express.js, JavaScript, TypeScript, HTML/CSS, Tailwind CSS |
+### 🛡️ SECURITY OPERATIONS
 
-<br clear="right"/>
+![Cybersecurity](./cybersecurity.svg)
+
+**RECON → SCANNING → ENUMERATION → VULNERABILITY → EXPLOITATION → ANALYSIS → REMEDIATION → REPORT**
+
+**Tools:** Burp Suite, Nmap, Metasploit, Wireshark, Gobuster, ffuf, SQLmap, OWASP, SAST, DAST
 
 ---
 
-### 🧠 Core Expertise
-**Backend Development** — C#, ASP.NET Core, EF Core, CLR, LINQ, REST APIs, Microservices, Clean Architecture, SOLID
-**Cybersecurity** — Web Pentesting, OWASP Top 10, AppSec, Burp Suite Pro, Nmap, Wireshark, Metasploit, OSINT
-**Databases** — SQL Server, T-SQL, MySQL, MongoDB, Entity Framework Core, Database Design, Query Optimization
-**DevOps & Cloud** — Docker, Azure, Linux, Git, CI/CD, Nginx, Azure DevOps, Postman
+### 🛠️ Tech Stack & Tools
 
----
+![Tech Stack](./techstack.svg)
 
-### 🎯 Four Pillars, One Pipeline
-<p align="center">
- <img src="https://img.shields.io/badge/Backend_.NET-06b6d4?style=flat-square&logo=dotnet&logoColor=white" />
- <img src="https://img.shields.io/badge/Cybersecurity-ff3b5c?style=flat-square&logo=hackaday&logoColor=white" />
- <img src="https://img.shields.io/badge/Databases-f59e0b?style=flat-square&logo=microsoftsqlserver&logoColor=white" />
- <img src="https://img.shields.io/badge/DevOps-10b981?style=flat-square&logo=docker&logoColor=white" />
+#### Tools I Actually Use
+
+<p align="left">
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
+  <img src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white" alt=".NET" />
+  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white" alt="Kali Linux" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" />
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
 </p>
 
-| Pillar | Focus | Key Skills |
-|---|---|---|
-| **<img src="https://img.icons8.com/color/24/c-sharp-logo.png" width="18"/> Backend .NET** <br/> *Architecture & APIs* | Enterprise-Grade Systems | `C#` `ASP.NET Core` `EF Core` `REST APIs` `JWT` `Microservices` `Clean Architecture` `SOLID` |
-| **<img src="https://img.icons8.com/color/24/shield.png" width="18"/> Cybersecurity** <br/> *Offensive & Defensive* | AppSec & Pentesting | `Burp Suite Pro` `Nmap` `Metasploit` `Wireshark` `OWASP ZAP` `Nikto` `OWASP Top10` `OSINT` |
-| **<img src="https://img.icons8.com/color/24/database.png" width="18"/> Databases** <br/> *Data Architecture* | Relational & NoSQL | `SQL Server` `T-SQL` `MySQL` `MongoDB` `Database Design` `EF Core ORM` `Query Optimization` |
-| **<img src="https://img.icons8.com/color/24/docker.png" width="18"/> DevOps & Cloud** <br/> *Infrastructure* | Deployment & Automation | `Docker` `Azure` `Linux` `Git` `CI/CD` `Nginx` `Azure DevOps` `Postman` |
+| Category | Technologies |
+|---|---|
+| **Languages** | C#, JavaScript, TypeScript, Python, HTML, CSS, SQL |
+| **Backend** | .NET Core, ASP.NET Core, EF Core, Node.js, Express, REST APIs, JWT, Microservices |
+| **Databases** | SQL Server, MySQL, MongoDB |
+| **Security** | Burp Suite, Nmap, Metasploit, Wireshark, OWASP ZAP, Nikto |
+
+---
+
+### 📈 SYSTEM STATUS
+
+![System Status](./status.svg)
+
+```text
+SYSTEM STATUS
+---------------------
+SECURITY ONLINE ●
+DEVELOPMENT ONLINE ●
+DEVOPS ONLINE ●
+BUILD STATUS STABLE
+ENVIRONMENT LINUX
+MODE ENGINEERING
+```
 
 ---
 
@@ -120,21 +137,6 @@ I'm **Abdelaziz Mohamed** — **Backend & Security Engineer** from **Cairo, Egyp
 | **Cybersecurity Certified Program** | ITI (Assuit Branch) | Network Fundamentals, Ethical Hacking, HCCDA Huawei Cloud |
 | **Web Development using .NET** | ITI (Sohag Branch) | C#, EF Core, SQL Server, ASP.NET MVC, Generative AI |
 | **Vulnerability Analyst & Pentester** | Rowad Masr Al-Raqamiya | Infrastructure & Security, Mastercard Standards |
-
----
-
-### 🛡️ Freelance Services (Khamsat • Nafezly • Upwork)
-
-<p align="center">
- <img src="https://img.shields.io/badge/🛡️_Vulnerability_Assessment_&_Pentesting-020617?style=for-the-badge" />
- <img src="https://img.shields.io/badge/⚙️_API_Development_&_Backend_Architecture-020617?style=for-the-badge" />
- <img src="https://img.shields.io/badge/🔒_Application_Security_Consultation-020617?style=for-the-badge" />
-</p>
-
-| Service | Description | Tools |
-|---|---|---|
-| **Vulnerability Assessment & Pentesting** | Comprehensive gray-box web app & network testing following OWASP methodology | Burp Suite Pro, Nmap, OWASP ZAP, Metasploit, Wireshark |
-| **API Development & Backend** | Secure, scalable RESTful APIs and microservices with Clean Architecture | C#, ASP.NET Core, EF Core, SQL Server, Docker, JWT |
 
 ---
 

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+    <defs>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+            .bg { fill: #060913; }
+            .box { fill: none; stroke: #00ff00; stroke-width: 2; rx: 8; }
+            .glow-dot { fill: #00ff00; filter: drop-shadow(0 0 8px #00ff00); }
+            .title { font-family: 'Share Tech Mono', monospace; font-size: 20px; fill: #00ff00; font-weight: bold; }
+            .subtitle { font-family: 'Share Tech Mono', monospace; font-size: 14px; fill: #00cc00; }
+            
+            .btn-box { fill: none; stroke: rgba(0,255,0,0.5); stroke-width: 1; rx: 4; }
+            .btn-text { font-family: 'Share Tech Mono', monospace; font-size: 12px; fill: #a3a3a3; text-anchor: middle; }
+            .btn-title { font-family: 'Share Tech Mono', monospace; font-size: 14px; font-weight: bold; text-anchor: middle; }
+            
+            .t-contact { fill: #00d2ff; }
+            .t-response { fill: #ff3b5c; }
+            .t-freelance { fill: #f59e0b; }
+        </style>
+    </defs>
+
+    <rect width="800" height="200" class="bg" rx="10" />
+    
+    <g transform="translate(40, 30)">
+        <rect width="720" height="140" class="box" />
+        
+        <!-- Status Indicator -->
+        <circle cx="40" cy="40" r="12" class="glow-dot">
+            <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+        </circle>
+        
+        <text x="70" y="45" class="title">STATUS: AVAILABLE</text>
+        <text x="70" y="65" class="subtitle">Open for new projects &amp; collaborations</text>
+
+        <!-- Buttons -->
+        <!-- Contact -->
+        <g transform="translate(40, 90)">
+            <rect width="200" height="40" class="btn-box" />
+            <text x="100" y="16" class="btn-title t-contact">✉ CONTACT</text>
+            <text x="100" y="32" class="btn-text">DM for inquiries</text>
+        </g>
+
+        <!-- Response -->
+        <g transform="translate(260, 90)">
+            <rect width="200" height="40" class="btn-box" />
+            <text x="100" y="16" class="btn-title t-response">⚡ RESPONSE</text>
+            <text x="100" y="32" class="btn-text">&lt; 24 hours</text>
+        </g>
+
+        <!-- Freelance -->
+        <g transform="translate(480, 90)">
+            <rect width="200" height="40" class="btn-box" />
+            <text x="100" y="16" class="btn-title t-freelance">🚀 FREELANCE</text>
+            <text x="100" y="32" class="btn-text">Remote / Worldwide</text>
+        </g>
+    </g>
+</svg>
