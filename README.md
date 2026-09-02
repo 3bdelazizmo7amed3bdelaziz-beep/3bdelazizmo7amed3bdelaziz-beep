@@ -151,6 +151,15 @@ MODE ENGINEERING
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=3bdelazizmo7amed3bdelaziz-beep&theme=tokyonight&hide_border=true&background=020617&stroke=06b6d4&ring=06b6d4&fire=ff3b5c&currStreakLabel=06b6d4" />
 </p>
 
+<!-- GitHub Snake Animation -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/3bdelazizmo7amed3bdelaziz-beep/3bdelazizmo7amed3bdelaziz-beep/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/3bdelazizmo7amed3bdelaziz-beep/3bdelazizmo7amed3bdelaziz-beep/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/3bdelazizmo7amed3bdelaziz-beep/3bdelazizmo7amed3bdelaziz-beep/output/github-contribution-grid-snake.svg">
+  </picture>
+</p>
+
 <p align="center">
   <i>"Building fortresses of code and breaking them to make them stronger — that's how secure systems are born."</i>
 </p>
